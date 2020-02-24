@@ -1,7 +1,7 @@
-
 from flask import Flask, jsonify,json
 import psycopg2
-
+def hi():
+    print ("hi")
 def DAL():
     conn = psycopg2.connect(user="lidor",
                                 password="lidor1408",
